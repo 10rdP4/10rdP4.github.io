@@ -1,10 +1,13 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper header-flex">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
+    <img id="magic_g" src="/imgs/magic_g.jpg" alt="profile pic">
+
+    <!-- Para en el futuro añadir un nav
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -26,5 +29,6 @@
         </div>
       </nav>
     {%- endif -%}
+    --> 
   </div>
 </header>

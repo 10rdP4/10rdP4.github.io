@@ -12,3 +12,15 @@
     box-shadow: 8px 8px 10px #441f2f;
     margin-bottom: 10px;
 }
+
+// Writeups center imgs
+img[src*='#center'] { 
+    background-color: #eeeeee;
+    border: 4px outset #0d0055;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

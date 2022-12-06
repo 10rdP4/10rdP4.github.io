@@ -1,10 +1,61 @@
 // Custom css
 
-.header-flex{
+.custom-header {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.custom-nav {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.custom-tags{
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.custom-tag {
+    font-size: small;
+    padding: 3px;
+    color: gray;
+    background-color: rgb(161, 217, 255);
+    border-radius: 3px;
+}
+
+.custom-content-tags{
+    margin-right: 50px;
+}
+
+.custom-tag-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-noli {
+    list-style-type: none;
+}
+
+.custom-nomargin {
+    margin: 0;
 }
 
 #magic_g {
@@ -14,7 +65,7 @@
 }
 
 // Writeups center imgs
-img[src*='#center'] { 
+img[src*='#center'] {
     background-color: #eeeeee;
     border: 4px outset #0d0055;
     border-radius: 4px;

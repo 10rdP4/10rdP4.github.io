@@ -1,77 +1,89 @@
 // Custom css
 
 .custom-header {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .custom-nav {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.custom-tags{
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.custom-tags {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .custom-tag {
-    font-size: small;
-    padding: 3px;
-    color: gray;
-    background-color: rgb(161, 217, 255);
-    border-radius: 3px;
+  font-size: small;
+  padding: 3px;
+  color: gray;
+  background-color: rgb(161, 217, 255);
+  border-radius: 3px;
 }
 
-.custom-content-tags{
-    margin-right: 50px;
+.custom-content-tags {
+  margin-right: 50px;
 }
 
 .custom-tag-tags {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .custom-noli {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .custom-nomargin {
-    margin: 0;
+  margin: 0;
+}
+
+ul.pager {
+  text-align: center;
+  list-style: none;
+}
+
+ul.pager li {
+  display: inline;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
 }
 
 #magic_g {
-    height: 120px;
-    box-shadow: 8px 8px 10px #441f2f;
-    margin-bottom: 10px;
+  height: 120px;
+  box-shadow: 8px 8px 10px #441f2f;
+  margin-bottom: 10px;
 }
 
 // Writeups center imgs
-img[src*='#center'] {
-    background-color: #eeeeee;
-    border: 4px outset #0d0055;
-    border-radius: 4px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+img[src*="#center"] {
+  background-color: #eeeeee;
+  border: 4px outset #0d0055;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

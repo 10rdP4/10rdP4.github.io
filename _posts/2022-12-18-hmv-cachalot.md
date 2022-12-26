@@ -9,7 +9,7 @@ tags: [ctf, hackmyvm]
 
 ![img](/imgs/write-ups/hackmyvm/cachalot/cachalot_1.png#center)
 
-## Enumeración
+## Reconocimiento
 
 Como en todas las máquinas, lo primero es hacer una enumeración:
 

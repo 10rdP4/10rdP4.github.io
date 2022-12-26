@@ -9,7 +9,7 @@ tags: [ctf, hackmyvm]
 
 ![img](/imgs/write-ups/hackmyvm/oldschool/oldschool.png#center)
 
-## Enumeración
+## Reconocimiento
 
 Lo primero, un escaneo rápido de la máquina:
 

@@ -9,7 +9,7 @@ tags: [ctf, hackmyvm]
 
 ![img](/imgs/write-ups/hackmyvm/bounty/bounty.png#center)
 
-## Reconocimiento 
+## Reconocimiento
 
 Lo primero, realizo un escaneo de los puertos abiertos en la máquina.
 
